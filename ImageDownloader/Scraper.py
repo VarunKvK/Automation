@@ -1,6 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
 
+image_urls=[]
+title_list=[]
+
 def scrape_website(url):
     #Sends request to specific url and get the required data
     response=requests.get(url)
@@ -10,8 +13,7 @@ def scrape_website(url):
     # print(soup)
     
     #Find the image element on the website and then extract their urls
-    image_urls=[]
-    title_list=[]
+    global image_url,title_list #global variable
     images_element=soup.find_all('div',class_="MorZF")
     for image in images_element:
         image_list=image.find_all('img')
@@ -21,7 +23,6 @@ def scrape_website(url):
             if src:
                 image_urls.append(src)
                 title_list.append(title)
-    title_list=[title for title in title_list if title is not None]
 
             
      
