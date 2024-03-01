@@ -37,6 +37,17 @@ def generate_boxplot(df,column):
     pl.grid(True)
     pl.show()
 
+def generate_scatterplot(data,x_column,y_column):
+    x_data=data[x_column]
+    y_data=data[y_column]
+    
+    pl.figure(figsize=(8,6))
+    pl.scatter(x_data,y_data,color='blue',alpha=0.5)
+    pl.xlabel(x_column)
+    pl.ylabel(y_column)
+    pl.show()
+
+
 # The file I'm generate report of 
 csv_file="BestLap.csv"
 df=read_csv(csv_file)
@@ -47,6 +58,7 @@ cleansed_data.groupby("aggregateRating/ratingValue").count()
 print(generate_report(cleansed_data))
 generate_histogram(cleansed_data,"aggregateRating/ratingValue")
 generate_boxplot(cleansed_data,"aggregateRating/ratingValue")
+generate_scatterplot(cleansed_data,"aggregateRating/ratingValue","aggregateRating/reviewCount")
 
 
 
