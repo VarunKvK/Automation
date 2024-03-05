@@ -18,6 +18,7 @@ numeric_data=clean_dt[numeric_column]
 cor_dat=numeric_data.corr()
 
 pt.figure(figsize=(8,6))
+# Provides you the hetmap of the dataset
 sns.heatmap(cor_dat,annot=True,cmap="coolwarm",fmt=".2f",linewidths=0.5)
 pt.title("Correlation Matrix")
 pt.show()

@@ -1,0 +1,77 @@
+[33mcommit 968f59873966795145492d743a7e334cab23e0fe[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mEmailTemplate[m[33m)[m
+Author: VarunKvK <varunkrishnankv2002@gmail.com>
+Date:   Mon Mar 4 12:07:42 2024 +0530
+
+    Email template added to the sender
+
+[33mcommit e765e2b553c66caf96e1c04bbcd1fce75719348d[m
+Author: VarunKvK <varunkrishnankv2002@gmail.com>
+Date:   Mon Mar 4 09:23:12 2024 +0530
+
+    Creating a template for sending email
+
+[33mcommit 49b0fc9b21e90fd38124f0c6308bcd5f556056db[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: VarunKvK <varunkrishnankv2002@gmail.com>
+Date:   Sat Mar 2 11:00:09 2024 +0530
+
+    Email Automating Project
+
+[33mcommit ed7e99011b0173190ac3b2746cfdbfca82095d0e[m
+Author: VarunKvK <varunkrishnankv2002@gmail.com>
+Date:   Fri Mar 1 20:20:59 2024 +0530
+
+    Iris Dataset to understand the data of flowers
+
+[33mcommit de5d3f41f58ef59dfc78b454d25f4ae32331c029[m
+Author: VarunKvK <varunkrishnankv2002@gmail.com>
+Date:   Fri Mar 1 15:54:07 2024 +0530
+
+    Basic Data Analysis is completed
+
+[33mcommit d424b84bf65aeb2f71608b92bf32a7477a8b9b3f[m
+Author: VarunKvK <varunkrishnankv2002@gmail.com>
+Date:   Thu Feb 29 12:34:48 2024 +0530
+
+    Created a box plot and histogram
+
+[33mcommit 096329799671490c429f8460c626fdcc9d0d1254[m
+Author: VarunKvK <varunkrishnankv2002@gmail.com>
+Date:   Thu Feb 29 07:53:46 2024 +0530
+
+    Created  Folder DataAnalysis
+
+[33mcommit fdd42a794cd160fb7def78b3d9e7d28e8a4a0ea5[m
+Author: VarunKvK <varunkrishnankv2002@gmail.com>
+Date:   Wed Feb 28 09:09:52 2024 +0530
+
+    Updated the readme.md file
+
+[33mcommit dc45a05e6aeae162928f9b151b2543d490d3625b[m[33m ([m[1;32mImageDownloader_branch[m[33m)[m
+Author: VarunKvK <varunkrishnankv2002@gmail.com>
+Date:   Wed Feb 28 08:59:28 2024 +0530
+
+    Branch updated with a different way of saving the images
+
+[33mcommit 1808fbce135b3be10df625f8bfbd8febdef9e48f[m
+Author: VarunKvK <varunkrishnankv2002@gmail.com>
+Date:   Wed Feb 28 06:32:40 2024 +0530
+
+    Downloader file created to download and save the images
+
+[33mcommit 066d0782d1b88a914412fac3e2f33e375b228231[m
+Author: VarunKvK <varunkrishnankv2002@gmail.com>
+Date:   Tue Feb 27 16:19:17 2024 +0530
+
+    Scrapper.py working properly
+
+[33mcommit 8f41e3f7c9c9ef56c6075e32c937ce91bc661f02[m
+Author: VarunKvK <varunkrishnankv2002@gmail.com>
+Date:   Tue Feb 27 13:54:15 2024 +0530
+
+    Files created
+
+[33mcommit c380817144c795f65a7763e88c3b6fda049d792c[m
+Author: VarunKvK <varunkrishnankv2002@gmail.com>
+Date:   Tue Feb 27 13:41:30 2024 +0530
+
+    FileOrganier Project added

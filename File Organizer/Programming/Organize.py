@@ -56,7 +56,7 @@ def organize_files(directory):
 #------------------------------------------------------
 
 # directory_path=r"I:\WorkByVarun\Varun\Development\IntermediateDevelopment\PythonDevelopment\Automation\FileOrganizer"
-directory_path=r"I:\WorkByVarun\Varun\Development\IntermediateDevelopment\PythonDevelopment\Automation\FileOrganizer"
+directory_path=r"C:\Users\Admin\Downloads"
 file_path=directory_path.replace("\\","/")
 # print(file_path)
 

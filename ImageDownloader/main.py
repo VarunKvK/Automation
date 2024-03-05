@@ -3,7 +3,7 @@ from Downloader import download_image
 
 def main():
     #Url You want to use
-    website_url="https://unsplash.com/"
+    website_url="https://unsplash.com/@varun_clicks"
     
     num_images= int(input("Number of images to download: "))
     #Specify the url in the function created

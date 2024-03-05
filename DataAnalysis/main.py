@@ -46,7 +46,7 @@ def generate_scatterplot(data,x_column,y_column):
     pl.xlabel(x_column)
     pl.ylabel(y_column)
     pl.show()
-
+    
 
 # The file I'm generate report of 
 csv_file="BestLap.csv"
