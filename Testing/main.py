@@ -4,12 +4,13 @@ from dotenv import load_dotenv
 import pytest
 from selenium import webdriver
 from login import Login
+from search import SearchByUser
 
 load_dotenv()
 
 chrome_opt = webdriver.ChromeOptions()
 chrome_opt.add_experimental_option("detach", True)
-@pytest.fixture
+@pytest.fixture(scope="module")
 def driver():
     driver = webdriver.Chrome(chrome_opt)  # Initialize WebDriver instance
     yield driver  # Provide the WebDriver instance to the test functions
@@ -25,4 +26,10 @@ def test_example_user_login(driver):
     login_page.enter_password(os.getenv("PASSWORD"))
     
     login_page.click_login() #Click login
+    
+def test_user_search(driver):
+    search_page=SearchByUser(driver)
+    # driver.get("https://savee.it") #Link to Automate testing
+    search_page.click_search()
+    search_page.search_input_value("UI Design")
     
